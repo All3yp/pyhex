@@ -10,7 +10,6 @@
 #									                         
 ##############################################################
 
-#OBS: ESTA FERRAMENTA NÃO COMPILA NO WINDOWS, POIS OS PARAMETROS NÃO EXISTEM NELE
 
 import os
 import sys
