@@ -21,7 +21,7 @@ def iniciar():
 		cmd = "echo -n" + string + " | xxd  -ps | sed 's/[[:xdigit:]]\{2\}/\\\\x&/g'"
 		os.system(cmd)
 	except IndexError:
-		string = raw_input("\nInforme uma string!: ")
+		string = raw_input("\nEnter to string: ")
 		if(string != ""):
 
 			cmd = "echo -n" + string + " | xxd  -ps | sed 's/[[:xdigit:]]\{2\}/\\\\x&/g'"
