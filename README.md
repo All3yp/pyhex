@@ -3,7 +3,7 @@
 Hex Generator made in Python
 
 
-###Criated by kr1pt0nG1rl 
+### Criated by kr1pt0nG1rl 
 
 ### Usage
 ```
