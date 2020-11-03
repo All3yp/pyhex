@@ -16,13 +16,13 @@ import sys
 def iniciar():
 	try:
 		string = sys.argv[1]
-		cmd = "echo -n" + string + " | xxd  -ps | sed 's/[[:xdigit:]]\{2\}/\\\\x&/g'"
+		cmd = "echo \"" + string + "\" | xxd  -ps | sed 's/[[:xdigit:]]\{2\}/\\\\x&/g'"
 		os.system(cmd)
 	except IndexError:
 		string = raw_input("\nEnter to string: ")
 		if(string != ""):
 
-			cmd = "echo -n" + string + " | xxd  -ps | sed 's/[[:xdigit:]]\{2\}/\\\\x&/g'"
+			cmd = "echo \"" + string + "\" | xxd  -ps | sed 's/[[:xdigit:]]\{2\}/\\\\x&/g'"
 			os.system(cmd)
 		else:
 			print("\n Finished !!")
