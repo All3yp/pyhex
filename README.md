@@ -9,7 +9,7 @@ Hex Generator made in Python
 ```
 python Pyhex.py <message> 
 ```
-###Example 
+### Example 
 ```
 python Pyhex.py Message 
 ```
