@@ -1,8 +1,15 @@
 # PyHex
-Hex Generator made in python
+
+Hex Generator made in Python
 
 
-Criated by kr1pt0nG1rl 
+###Criated by kr1pt0nG1rl 
 
-#AhHax Team 
-#HexQueens CTF team
+### Usage
+```
+python Pyhex.py <message> 
+```
+###Example 
+```
+python Pyhex.py Message 
+```

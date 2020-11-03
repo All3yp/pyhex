@@ -4,8 +4,6 @@
 #	Gerador de hexa em python	
 #
 #			       Created by Kr1pt0nG1rl	
-#        anhax team		                        	
-#			        	Pyladies++				
 #															 
 #									                         
 ##############################################################
